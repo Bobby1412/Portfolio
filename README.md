@@ -2,6 +2,8 @@
 
 A responsive, single-page portfolio built with React, Vite, plain CSS, and Lucide React.
 
+[🌐 View the live portfolio](https://bobby1412.github.io/Portfolio/)
+
 ## Getting started
 
 ```sh
@@ -19,4 +21,4 @@ The IBM virtual internship is presented as an unverified placeholder in the expe
 
 ## Deployment
 
-The project is a standard Vite SPA and can be deployed to Vercel or GitHub Pages after configuring the desired build and hosting settings. The production output is generated in `dist/`.
+GitHub Pages deploys the site automatically when changes are pushed to `main`. The workflow builds the app and publishes the `dist/` output. The Vite base path is configured for the `Portfolio` repository.
